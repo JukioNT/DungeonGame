@@ -20,14 +20,16 @@ public class PlayerMov : MonoBehaviour
         movAnimation = GetComponent<Animator>();
     }
 
-    
-    void Update()
+    private void FixedUpdate()
     {
         //Mover
         directionX = Input.GetAxis("Horizontal");
         directionY = Input.GetAxis("Vertical");
-        rb.velocity = new Vector2(directionX*moveSpeed, directionY*moveSpeed);
+        rb.velocity = new Vector2(directionX * moveSpeed, directionY * moveSpeed);
+    }
 
+    void Update()
+    {
         //Flipar
         if(rb.velocity.x < 0)
         {
