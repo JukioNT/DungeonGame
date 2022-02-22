@@ -6,7 +6,8 @@ TagManager:
   tags:
   - PlayerAttacker
   - player
-  - heartUI
+  - PlayerFeet
+  - HealthBar
   layers:
   - Default
   - TransparentFX
