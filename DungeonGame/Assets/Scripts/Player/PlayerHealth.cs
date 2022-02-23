@@ -10,15 +10,10 @@ public class PlayerHealth : MonoBehaviour
     [HideInInspector]
     public int health;
 
-    private int randXY;
-    private int randPN;
-    private Rigidbody2D playerRB;
-
     private Slider healthBar;
 
     private void Start()
     {
-        playerRB = gameObject.GetComponent<Rigidbody2D>();
         healthBar = GameObject.FindGameObjectWithTag("HealthBar").GetComponent<Slider>();
         healthBar.maxValue = maxHealth;
         health = maxHealth;

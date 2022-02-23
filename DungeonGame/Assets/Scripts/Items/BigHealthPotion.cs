@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SmallHealthPotion : MonoBehaviour
+public class BigHealthPotion : MonoBehaviour
 {
-
     public int itemID;
     public int healthHeal;
-    private int healthLeft;
     private bool canDestroy;
 
     private PlayerHealth ph;

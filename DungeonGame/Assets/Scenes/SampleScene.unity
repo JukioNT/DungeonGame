@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3748,7 +3748,7 @@ Tilemap:
       - {fileID: -7116537791834819888, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
       - {fileID: 6106267624269041968, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
       - {fileID: -4610506006213869021, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
-      m_AnimationSpeed: 2.8710258
+      m_AnimationSpeed: 3.9239035
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: 2, z: 0}
@@ -3757,7 +3757,7 @@ Tilemap:
       - {fileID: -7116537791834819888, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
       - {fileID: 6106267624269041968, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
       - {fileID: -4610506006213869021, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
-      m_AnimationSpeed: 2.751428
+      m_AnimationSpeed: 4.454472
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -3, y: 3, z: 0}
@@ -3766,7 +3766,7 @@ Tilemap:
       - {fileID: 4110940639425168041, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
       - {fileID: -5679695008002483125, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
       - {fileID: -8002573014126983802, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
-      m_AnimationSpeed: 2.8897307
+      m_AnimationSpeed: 4.9730616
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: 3, z: 0}
@@ -3775,7 +3775,7 @@ Tilemap:
       - {fileID: 4110940639425168041, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
       - {fileID: -5679695008002483125, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
       - {fileID: -8002573014126983802, guid: 38bcd3a3c42c4c74eb76f7c3eddd6fe2, type: 3}
-      m_AnimationSpeed: 4.7039385
+      m_AnimationSpeed: 4.305823
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
