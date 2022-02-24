@@ -24,7 +24,7 @@ public class ChestDropItems : MonoBehaviour
     {
         if (Input.GetKeyDown("e") && chest.colPlayer == true)
         {
-            Instantiate(smallHPotion, new Vector3(chestPosX, chestPosY, 0), Quaternion.identity);
+            Instantiate(smallHPotion, new Vector3(chestPosX, chestPosY-1, 0), Quaternion.identity);
         }
     }
 
