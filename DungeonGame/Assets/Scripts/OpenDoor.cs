@@ -11,7 +11,7 @@ public class OpenDoor : MonoBehaviour
     public GameObject doorUp;
     public GameObject doorDown;
 
-    void DoorOpen()
+    public void DoorOpen()
     {
         doorUp.GetComponent<SpriteRenderer>().sprite = upDoorOpend;
         doorUp.GetComponent<SpriteRenderer>().sortingOrder = 6;
