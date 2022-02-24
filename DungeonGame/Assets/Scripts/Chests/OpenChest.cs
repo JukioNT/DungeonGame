@@ -5,8 +5,9 @@ using UnityEngine;
 public class OpenChest : MonoBehaviour
 {
 
-    public Sprite chestOpend;
-    private bool colPlayer;
+    public Sprite chestOpeningSprites;
+    [HideInInspector]
+    public bool colPlayer;
     private SpriteRenderer spriteR;
 
     void Start()
@@ -24,7 +25,7 @@ public class OpenChest : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "player")
+        if(other.gameObject.tag == "Player")
         {
             colPlayer = true;
         }
@@ -32,7 +33,7 @@ public class OpenChest : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "player")
+        if (other.gameObject.tag == "Player")
         {
             colPlayer = false;
         }
@@ -40,6 +41,6 @@ public class OpenChest : MonoBehaviour
 
     void Animation()
     {
-        spriteR.sprite = chestOpend;
+        spriteR.sprite = chestOpeningSprites;
     }
 }

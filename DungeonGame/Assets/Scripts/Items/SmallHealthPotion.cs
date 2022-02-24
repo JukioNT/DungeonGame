@@ -7,14 +7,13 @@ public class SmallHealthPotion : MonoBehaviour
 
     public int itemID;
     public int healthHeal;
-    private int healthLeft;
     private bool canDestroy;
 
     private PlayerHealth ph;
 
     void Start()
     {
-        ph = GameObject.FindGameObjectWithTag("player").GetComponent<PlayerHealth>();
+        ph = Object.FindObjectOfType<PlayerHealth>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -28,7 +27,7 @@ public class SmallHealthPotion : MonoBehaviour
         {
             canDestroy = false;
         }
-        if (other.gameObject.tag == "player")
+        if (other.gameObject.tag == "Player")
         {
             if (canDestroy == true)
             {

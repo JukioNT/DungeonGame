@@ -12,7 +12,7 @@ public class BigHealthPotion : MonoBehaviour
 
     void Start()
     {
-        ph = GameObject.FindGameObjectWithTag("player").GetComponent<PlayerHealth>();
+        ph = Object.FindObjectOfType<PlayerHealth>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -26,7 +26,7 @@ public class BigHealthPotion : MonoBehaviour
         {
             canDestroy = false;
         }
-        if (other.gameObject.tag == "player")
+        if (other.gameObject.tag == "Player")
         {
             if (canDestroy == true)
             {

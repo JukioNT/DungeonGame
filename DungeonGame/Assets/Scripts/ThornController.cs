@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ThornController : MonoBehaviour
 {
 
-    private PlayerHealth pH;
+    private PlayerHealth ph;
 
     public Sprite[] thornsSprites;
     private int spriteSelector;
@@ -16,7 +16,7 @@ public class ThornController : MonoBehaviour
 
     void Start()
     {
-        pH = GameObject.FindGameObjectWithTag("player").GetComponent<PlayerHealth>();
+        ph = Object.FindObjectOfType<PlayerHealth>();
         time = 0f;
         timeDelay = 1f;
     }
@@ -45,7 +45,7 @@ public class ThornController : MonoBehaviour
     {
         if(other.tag == "PlayerFeet")
         {
-            pH.TakeDamage();
+            ph.TakeDamage();
         }
     }
 }
