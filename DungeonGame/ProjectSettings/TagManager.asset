@@ -8,6 +8,7 @@ TagManager:
   - PlayerFeet
   - HealthBar
   - WASDTutorial
+  - ETutorial
   layers:
   - Default
   - TransparentFX

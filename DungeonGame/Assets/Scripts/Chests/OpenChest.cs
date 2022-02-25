@@ -8,6 +8,8 @@ public class OpenChest : MonoBehaviour
     public Sprite chestOpeningSprites;
     [HideInInspector]
     public bool colPlayer;
+    [HideInInspector]
+    public bool isOpend;
     private SpriteRenderer spriteR;
 
     void Start()
@@ -19,6 +21,7 @@ public class OpenChest : MonoBehaviour
     {
         if(Input.GetKeyDown("e") && colPlayer == true)
         {
+            isOpend = true;
             Animation();
         }
     }
