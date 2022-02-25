@@ -5,13 +5,14 @@ using UnityEngine;
 public class PlayerMov : MonoBehaviour
 {
 
-    public int moveSpeed;
+    public float moveSpeed;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator movAnimation;
     private float directionX;
     private float directionY;
+    private Vector2 directionMov;
     
     void Start()
     {
@@ -20,33 +21,33 @@ public class PlayerMov : MonoBehaviour
         movAnimation = GetComponent<Animator>();
     }
 
-    private void FixedUpdate()
-    {
-        //Mover
-        directionX = Input.GetAxis("Horizontal");
-        directionY = Input.GetAxis("Vertical");
-        rb.velocity = new Vector2(directionX * moveSpeed, directionY * moveSpeed);
-    }
-
     void Update()
     {
-        //Flipar
-        if(Input.GetKeyDown("a"))
+        if (Input.GetKeyDown("a"))
         {
             sr.flipX = true;
         }
-        if(Input.GetKeyDown("d"))
+        if (Input.GetKeyDown("d"))
         {
             sr.flipX = false;
         }
 
-        //Ativar animação
-        if(Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
         {
             movAnimation.SetBool("isRunning", true);
-        }else
+        }
+        else
         {
             movAnimation.SetBool("isRunning", false);
         }
+
+        directionX = Input.GetAxisRaw("Horizontal");
+        directionY = Input.GetAxisRaw("Vertical");
+        directionMov = new Vector2(directionX, directionY);
+    }
+
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(directionMov.x * moveSpeed, directionMov.y * moveSpeed);
     }
 }
