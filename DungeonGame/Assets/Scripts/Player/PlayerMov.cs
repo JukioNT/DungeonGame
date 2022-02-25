@@ -31,11 +31,11 @@ public class PlayerMov : MonoBehaviour
     void Update()
     {
         //Flipar
-        if(rb.velocity.x < 0)
+        if(Input.GetKeyDown("a"))
         {
             sr.flipX = true;
         }
-        if(rb.velocity.x > 0)
+        if(Input.GetKeyDown("d"))
         {
             sr.flipX = false;
         }
