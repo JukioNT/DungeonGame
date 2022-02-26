@@ -6,7 +6,7 @@ public class WASDTutorialContoller : MonoBehaviour
 {
 
     private GameObject tutorial;
-    private OpenDoor openDoor;
+    public OpenDoor openDoor;
 
     private bool wCondition = false;
     private bool aCondition = false;
@@ -16,7 +16,6 @@ public class WASDTutorialContoller : MonoBehaviour
     void Start()
     {
         tutorial = GameObject.FindGameObjectWithTag("WASDTutorial");
-        openDoor = GameObject.FindObjectOfType<OpenDoor>();
     }
 
     void Update()

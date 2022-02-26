@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenChest : MonoBehaviour
+public class TutorialChest : MonoBehaviour
 {
-
     public Sprite chestOpeningSprites;
     [HideInInspector]
     public bool colPlayer;
@@ -19,15 +18,16 @@ public class OpenChest : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown("e") && colPlayer == true)
+        if (Input.GetKeyDown("e") && colPlayer == true)
         {
+            isOpend = true;
             Animation();
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             colPlayer = true;
         }

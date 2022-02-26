@@ -5,12 +5,14 @@ using UnityEngine;
 public class ShowEButton : MonoBehaviour
 {
 
-    private OpenChest chest;
+    public OpenDoor openDoor;
+
+    private TutorialChest chest;
     private GameObject eTutorial;
 
     void Start()
     {
-        chest = Object.FindObjectOfType<OpenChest>();
+        chest = Object.FindObjectOfType<TutorialChest>();
         eTutorial = GameObject.FindGameObjectWithTag("ETutorial");
     }
 
@@ -22,6 +24,10 @@ public class ShowEButton : MonoBehaviour
         }else
         {
             eTutorial.SetActive(false);
+        }
+        if(chest.isOpend)
+        {
+            openDoor.DoorOpen();
         }
     }
 }
