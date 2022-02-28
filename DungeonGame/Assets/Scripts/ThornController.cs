@@ -45,7 +45,7 @@ public class ThornController : MonoBehaviour
     {
         if(other.tag == "PlayerFeet")
         {
-            ph.TakeDamage();
+            ph.TakeDamage(1);
         }
     }
 }

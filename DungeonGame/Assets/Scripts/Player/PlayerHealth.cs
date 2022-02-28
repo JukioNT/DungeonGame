@@ -29,8 +29,8 @@ public class PlayerHealth : MonoBehaviour
         health = health + life;
     }
 
-    public void TakeDamage()
+    public void TakeDamage(int damage)
     {
-        health -= 1;
+        health -= damage;
     }
 }
