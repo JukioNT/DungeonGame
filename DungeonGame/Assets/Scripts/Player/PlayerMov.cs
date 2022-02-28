@@ -23,11 +23,11 @@ public class PlayerMov : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKeyDown("a") || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             sr.flipX = true;
         }
-        if (Input.GetKeyDown("d"))
+        if (Input.GetKeyDown("d") || Input.GetKeyDown(KeyCode.RightArrow))
         {
             sr.flipX = false;
         }
