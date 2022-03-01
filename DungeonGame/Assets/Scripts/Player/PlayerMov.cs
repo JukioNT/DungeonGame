@@ -13,12 +13,14 @@ public class PlayerMov : MonoBehaviour
     private float directionX;
     private float directionY;
     private Vector2 directionMov;
+    private GameObject attackCollider;
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         movAnimation = GetComponent<Animator>();
+        attackCollider = transform.GetChild(0).gameObject;
     }
 
     void Update()
@@ -26,10 +28,12 @@ public class PlayerMov : MonoBehaviour
         if (Input.GetKeyDown("a") || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             sr.flipX = true;
+            attackCollider.transform.Rotate(new Vector3(0, 180, 0));
         }
         if (Input.GetKeyDown("d") || Input.GetKeyDown(KeyCode.RightArrow))
         {
             sr.flipX = false;
+            attackCollider.transform.Rotate(new Vector3(0, -180, 0));
         }
 
         if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
