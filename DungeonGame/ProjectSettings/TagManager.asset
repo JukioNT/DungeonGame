@@ -9,6 +9,7 @@ TagManager:
   - HealthBar
   - WASDTutorial
   - ETutorial
+  - Gun
   layers:
   - Default
   - TransparentFX

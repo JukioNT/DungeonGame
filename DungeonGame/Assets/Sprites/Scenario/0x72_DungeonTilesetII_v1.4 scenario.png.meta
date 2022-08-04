@@ -297,6 +297,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -2296,6 +2297,98 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      0x72_DungeonTilesetII_v1.4 scenario_80: -6541732652718274402
+      0x72_DungeonTilesetII_v1.4 scenario_28: -8966534344129707241
+      0x72_DungeonTilesetII_v1.4 scenario_76: 2791927508460925945
+      0x72_DungeonTilesetII_v1.4 scenario_8: -1238264888181228653
+      0x72_DungeonTilesetII_v1.4 scenario_11: -8002573014126983802
+      0x72_DungeonTilesetII_v1.4 scenario_45: -4324543363860384477
+      0x72_DungeonTilesetII_v1.4 scenario_23: -1883699955968724674
+      0x72_DungeonTilesetII_v1.4 scenario_35: -5851464079885802971
+      0x72_DungeonTilesetII_v1.4 scenario_31: -223829061460218726
+      0x72_DungeonTilesetII_v1.4 scenario_72: 4862569331195281707
+      0x72_DungeonTilesetII_v1.4 scenario_33: 6737510378518278609
+      0x72_DungeonTilesetII_v1.4 scenario_63: -4401300417563544666
+      0x72_DungeonTilesetII_v1.4 scenario_0: 6587043430535476122
+      0x72_DungeonTilesetII_v1.4 scenario_14: 3340909225715612582
+      0x72_DungeonTilesetII_v1.4 scenario_34: 4611788254498927366
+      0x72_DungeonTilesetII_v1.4 scenario_79: 6462969760881439337
+      0x72_DungeonTilesetII_v1.4 scenario_64: 4229509422097978005
+      0x72_DungeonTilesetII_v1.4 scenario_41: 67896733591988267
+      0x72_DungeonTilesetII_v1.4 scenario_77: 713048643771383152
+      0x72_DungeonTilesetII_v1.4 scenario_21: -7969653395381737341
+      0x72_DungeonTilesetII_v1.4 scenario_81: -7917380252895550381
+      0x72_DungeonTilesetII_v1.4 scenario_43: 2454946365430340860
+      0x72_DungeonTilesetII_v1.4 scenario_6: -8446341472805115537
+      0x72_DungeonTilesetII_v1.4 scenario_73: -7668773514637497949
+      0x72_DungeonTilesetII_v1.4 scenario_37: 841086519283370597
+      0x72_DungeonTilesetII_v1.4 scenario_5: 6109581501572870783
+      0x72_DungeonTilesetII_v1.4 scenario_50: 7300563254779437095
+      0x72_DungeonTilesetII_v1.4 scenario_15: -7116537791834819888
+      0x72_DungeonTilesetII_v1.4 scenario_19: 4534056192723902794
+      0x72_DungeonTilesetII_v1.4 scenario_61: 7433664276509943641
+      0x72_DungeonTilesetII_v1.4 scenario_38: 8205199534661790749
+      0x72_DungeonTilesetII_v1.4 scenario_3: -954172553229339047
+      0x72_DungeonTilesetII_v1.4 scenario_82: -5288387526950456652
+      0x72_DungeonTilesetII_v1.4 scenario_57: -5402666813592251466
+      0x72_DungeonTilesetII_v1.4 scenario_47: -1763628361464446802
+      0x72_DungeonTilesetII_v1.4 scenario_12: -4129918908782476319
+      0x72_DungeonTilesetII_v1.4 scenario_52: -4870479915161501891
+      0x72_DungeonTilesetII_v1.4 scenario_71: -5528298453569840131
+      0x72_DungeonTilesetII_v1.4 scenario_83: -1071265291010902262
+      0x72_DungeonTilesetII_v1.4 scenario_40: 5219921222866134338
+      0x72_DungeonTilesetII_v1.4 scenario_48: 6893395945077175296
+      0x72_DungeonTilesetII_v1.4 scenario_66: -4503813436636579341
+      0x72_DungeonTilesetII_v1.4 scenario_53: 3682924718110813847
+      0x72_DungeonTilesetII_v1.4 scenario_13: -8669609485678938795
+      0x72_DungeonTilesetII_v1.4 scenario_62: 8187681772763529233
+      0x72_DungeonTilesetII_v1.4 scenario_44: -3714789881851669965
+      0x72_DungeonTilesetII_v1.4 scenario_87: -4754524423573510231
+      0x72_DungeonTilesetII_v1.4 scenario_90: -714587969904322681
+      0x72_DungeonTilesetII_v1.4 scenario_49: -5972596035659939676
+      0x72_DungeonTilesetII_v1.4 scenario_58: 1439737675825536128
+      0x72_DungeonTilesetII_v1.4 scenario_42: -4754534396172941760
+      0x72_DungeonTilesetII_v1.4 scenario_16: 6106267624269041968
+      0x72_DungeonTilesetII_v1.4 scenario_78: 7063053742847815389
+      0x72_DungeonTilesetII_v1.4 scenario_54: 8596419151210183532
+      0x72_DungeonTilesetII_v1.4 scenario_4: 7485275720573242528
+      0x72_DungeonTilesetII_v1.4 scenario_86: 5406806675646827410
+      0x72_DungeonTilesetII_v1.4 scenario_85: 5228270669135193668
+      0x72_DungeonTilesetII_v1.4 scenario_59: -7582647386773893162
+      0x72_DungeonTilesetII_v1.4 scenario_20: 5579380313660403546
+      0x72_DungeonTilesetII_v1.4 scenario_65: 3217361767937972875
+      0x72_DungeonTilesetII_v1.4 scenario_9: 4110940639425168041
+      0x72_DungeonTilesetII_v1.4 scenario_70: 1033817753606520496
+      0x72_DungeonTilesetII_v1.4 scenario_30: -2158153509680014501
+      0x72_DungeonTilesetII_v1.4 scenario_32: -6381296761799354792
+      0x72_DungeonTilesetII_v1.4 scenario_27: 6970973892674982289
+      0x72_DungeonTilesetII_v1.4 scenario_88: 6621163423373215367
+      0x72_DungeonTilesetII_v1.4 scenario_7: 8533747817046044173
+      0x72_DungeonTilesetII_v1.4 scenario_60: 5674907420616446484
+      0x72_DungeonTilesetII_v1.4 scenario_39: 4649469197966438656
+      0x72_DungeonTilesetII_v1.4 scenario_74: -838393424027453506
+      0x72_DungeonTilesetII_v1.4 scenario_89: -2022555786197460826
+      0x72_DungeonTilesetII_v1.4 scenario_51: -122689361911528923
+      0x72_DungeonTilesetII_v1.4 scenario_10: -5679695008002483125
+      0x72_DungeonTilesetII_v1.4 scenario_84: -8027557805035649568
+      0x72_DungeonTilesetII_v1.4 scenario_2: 2256265165819965625
+      0x72_DungeonTilesetII_v1.4 scenario_46: 1842492110514934027
+      0x72_DungeonTilesetII_v1.4 scenario_67: -4830111030404840781
+      0x72_DungeonTilesetII_v1.4 scenario_29: -4094238644000407925
+      0x72_DungeonTilesetII_v1.4 scenario_22: 5315481464492500630
+      0x72_DungeonTilesetII_v1.4 scenario_17: -4610506006213869021
+      0x72_DungeonTilesetII_v1.4 scenario_26: 359874512550671031
+      0x72_DungeonTilesetII_v1.4 scenario_1: -6571575826230037288
+      0x72_DungeonTilesetII_v1.4 scenario_75: 1664288995966064378
+      0x72_DungeonTilesetII_v1.4 scenario_56: 8878088733981565189
+      0x72_DungeonTilesetII_v1.4 scenario_24: 3978959428163263376
+      0x72_DungeonTilesetII_v1.4 scenario_55: 5504996209317807227
+      0x72_DungeonTilesetII_v1.4 scenario_68: -1084416774905089363
+      0x72_DungeonTilesetII_v1.4 scenario_69: 7843272209948895012
+      0x72_DungeonTilesetII_v1.4 scenario_18: 5213715316585161785
+      0x72_DungeonTilesetII_v1.4 scenario_25: -7894646910381461134
+      0x72_DungeonTilesetII_v1.4 scenario_36: 1558625227745116857
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
